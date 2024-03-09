@@ -1,0 +1,47 @@
+html {
+    font: 16px/1.5 Helvetica, sans-serif;
+}
+
+body {
+    padding: 1em 3em 1em 3em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, serif;
+}
+
+hr {
+    color: lightgray;
+}
+
+blockquote {
+    border-left: 2px solid rgb(221, 221, 221);
+    font-style: italic;
+    padding-left: 1em;
+}
+
+blockquote > p:last-child {
+    text-align: right;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+th {
+    background-color: gray;
+    text-align: left;
+}
+
+th, td {
+    padding-left: 0.5em;
+}
+
+td {
+    border: 0.5px solid lightgray;
+}
+
+tr:nth-child(odd) {
+    background-color:gainsboro;
+}
