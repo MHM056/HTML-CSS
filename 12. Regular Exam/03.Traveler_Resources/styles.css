@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Infant&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 18px/1.5 Karla;
+}
+
+h1 {
+    font-family: "Cormorant Infant";
+    font-size: 90px;
+}
+
+.site-header {
+    background-image: url("images/poster.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    box-shadow: 0 0 1em 50em rgba(0, 0, 0, 0.4) inset;
+}
+.site-header header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 3em;
+}
+
+.logo img {
+    width: 112px;
+}
+
+.navigation {
+    display: flex;
+    gap: 2em;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: white;
+}
+
+.site-header h1,
+.site-header p {
+    text-align: center;
+    color: white;
+}
+
+.site-header h1 {
+    font-weight: bold;
+    padding: 1.3em 0.5em 1em 0;
+}
+
+.site-header p {
+    padding-bottom: 8em;
+}
+
+.testimonial {
+    padding: 2em 15em;
+    padding-bottom: 8em;
+    background-color: #F8F0E9;
+}
+.testimonial h1 {
+    font-size: 70px;
+    line-height: 0.9;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.testimonial p {
+    padding-left: 1em;
+    padding-bottom: 5em;
+}
+
+.support, .middle, .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.support {
+    padding: 2em 15em;
+    background-color: #E14747;
+    color: #FFFFFF;
+    padding: 3em 0;
+}
+
+.support p:nth-child(1) {
+    font-size: 30px;
+    padding-bottom: 2em;
+}
+
+.support p:nth-child(2) {
+    font-size: 22px;
+}
+
+.middle {
+    background-color: #F8F0E9;
+    padding: 2em 0;
+}
+
+.middle .article img {
+    max-width: 624px;
+    text-align: center;
+    width: 50%;
+}
+
+.article {
+    text-align: center;
+    width: 50%;
+}
+
+.article h1 {
+    line-height: 1;
+    font-size: 80px;
+    padding: 0.7em 0;
+}
+
+.middle a {
+    color: black;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background-color: #FFFFFF;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.middle a:nth-child(2) {
+    margin: 1em 0;
+}
+
+.article a {
+    float: left;
+    margin: 0 0 2em 4em;
+}
+
+.article p {
+    padding: 0 4em 3em 4em;
+    text-align: left;
+}
+
+.guide {
+    background-color: #E14747;
+    color: #FFFFFF;
+    padding: 0.7em 5em;
+}
+
+.guide h1 {
+    font-size: 80px;
+    padding-bottom: 1em;
+}
+
+.guide p {
+    text-align: center;
+    padding-bottom: 3em;
+}
+
+.info {
+    margin: 5em 10em;
+}
+
+.info a {
+    background-color: #FAD87A;
+    padding: 0.8em;
+    border-radius: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    background-color: #352B2A;
+    color: white;
+    padding: 2em 0 2em 4em;
+}
+
+footer img {
+    width: 74px;
+    padding-bottom: 2em;
+}
+
+footer p:nth-child(2){
+    padding-bottom: 1em;
+}
+
+footer p:nth-child(3){
+    opacity: 0.4;
+}
